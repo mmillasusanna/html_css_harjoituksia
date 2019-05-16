@@ -1,0 +1,26 @@
+
+header { grid-area: header; }
+nav { grid-area: nav; }
+section { grid-area: section; }
+article { grid-area: article; }
+aside { grid-area: aside; }
+footer { grid-area: footer; }
+
+body {
+  display: grid;
+  grid-template-areas:
+    'header header header header header header'
+    'aside nav nav nav nav nav'
+    'aside article article section section section'
+    'aside footer footer footer footer footer';
+  grid-gap: 10px;
+  background-color: #2196F3;
+  padding: 10px;
+}
+
+header, nav, section, article, aside, footer {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}

@@ -1,0 +1,110 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Ravintola Lapintaika</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="palaute.css">
+</head>
+<body>
+    <div class="wrapper">
+
+    <header>
+        <h1>Ravintola Lapintaika</h1>
+        <ul class="navbar">
+                <li ><a class="navbutton" href="ravintola.html">Takaisin etusivulle</a></li>
+            </ul>
+    </header>
+    
+    <aside>
+        <p>Kerro meille kokemuksestasi ravintolassamme. Käsittelemme kaikki asiakaspalautteet yksilöllisesti. </p>
+        <p>Kiitos palautteestasi! </p>
+        <img src="Kuvat/ravintola8.JPG"  width="80%" height="70%">
+    </aside>
+    <article>
+        <form action="somePHPpage.php" method="post">
+            <b>Palautelomake</b>
+        </form>
+
+        Nimi: <input type="text" name="nimi" maxlength=50>
+       <br> Puhelinnumero: <input type="text" name="puhelinnumero" maxlength=30>
+       <br> Sähköposti: <input type="email" name="sähköposti" maxlength=30>
+       <br> Asioin ravintolassa: <input type="date" name="päivämäärä" maxlength=30>
+       <br> <input type="checkbox" name="transport1" value="ravintola saa olla minuun yhteydessä"> Ravintola saa olla minuun yhteydessä
+       
+
+       <br> <input type="radio" name="sukupuoli" value="mies">Mies<br>
+  <input type="radio" name="sukupuoli" value="nainen">Nainen<br>
+  <input type="radio" name="sukupuoli" value="muu" checked>Muu<br>
+<b>Annoksen maku oli...</b>
+<br> 
+<select name="Annoksen maku oli...">
+    <option value="erinomainen">Erinomainen</option>
+    <option value="hyvä">Hyvä</option>
+    <option value="kohtalainen">Kohtalainen</option>
+    <option value="huono">Huono</option>
+    <option value="en halua/osaa vastata">En halua/osaa vastata</option>
+</select>
+<br>
+<b>Annoksen lämpötila oli...</b>
+<br>
+<select name="Annoksen lämpötila oli...">
+    <option value="sopiva">Sopiva</option>
+    <option value="liian kuuma">Liian kuuma</option>
+    <option value="liian kylmä">Liian kylmä</option>
+    <option value="en halua/osaa vastata">En halua/osaa vastata</option>
+</select>
+
+<br>
+<b>Annoksen ulkonäkö oli...</b>
+<br>
+<select name="Annoksen ulkonäkö oli...">
+    <option value="erinomainen">Erinomainen</option>
+    <option value="hyvä">Hyvä</option>
+    <option value="kohtalainen">Kohtalainen</option>
+    <option value="huono">Huono</option>
+    <option value="en halua/osaa vastata">En halua/osaa vastata</option>
+</select>
+<br>
+
+<b>Annoksen hinta oli...</b>
+<br>
+<select name="Annoksen hinta oli...">
+    <option value="sopiva">Sopiva</option>
+    <option value="annos ei vastannut hintaansa">Annos ei vastannut hintaansa</option>
+    <option value="en halua/osaa vastata">En halua/osaa vastata</option>
+    </select>
+<br>
+
+<b>Palvelu oli...</b>
+<br>
+<select name="Palvelu oli...">
+    <option value="erinomaista">Erinomaista</option>
+    <option value="hyvää">Hyvää</option>
+    <option value="kohtalaista">Kohtalaista</option>
+    <option value="huonoa">Huonoa</option>
+    <option value="en halua/osaa vastata">En halua/osaa vastata</option>
+</select>
+<br>
+    <b>Vapaan palautteen kenttä</b>
+ <br> <textarea name="vapaa palaute" rows="5" cols="30">
+        Kirjoita tähän...
+        </textarea>
+
+
+<br> <input type="submit" value="Lähetä">
+
+    
+        
+    </article>
+    
+    <footer>
+        <h1>Ravintolan yhteystiedot</h1>
+        <p>Ravintola Lapintaika, Ravintolakatu 2, 98765 LAPINMAA</p>
+        <p>Puh. (012) 345 6789</p> 
+        <p>Sähköposti: varaukset@jokuposti.net</p>
+        <p>aukioloajat: ma - pe, 10:30 - 15:00</p>
+    </footer>
+    </div>
+    </body>
+    </html>

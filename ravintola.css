@@ -1,0 +1,130 @@
+body {
+    background-color: #81c9fe;
+  }
+
+h2, h3, h4, th {
+    color: #0a485c;
+    font-family: 
+}
+
+
+
+    td, p, li, h1 {
+        color: #0a485c;
+        font-weight: bold;
+        font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif
+    }
+
+    
+   aside {
+    padding: 1em;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 25px;
+    background-color: darkslategray;
+    background-color: rgba (201, 76, 76, 0,5);
+    }
+
+    article {
+        padding: 1em;
+        border-style: solid;
+        border-width: 1px;
+        border-radius: 25px;
+        background-color: darkslategray;
+        background-color: rgba (201, 76, 76, 0,5);
+        }
+
+        footer {
+            padding: 1em;
+            border-style: solid;
+            border-width: 1px;
+            border-radius: 25px;
+            background-color: darkslategray;
+            background-color: rgba (201, 76, 76, 0,5);
+            }
+    
+   
+
+    /* visited link */
+a:visited {
+    color: #0a485c;
+
+}
+
+/* unvisited link */
+a:link {
+    color: #0a485c;
+  }
+
+
+
+body {
+    background-image: url("Kuvat/ravintola4.jpg");
+    background-color: #cccccc;
+    height: 100%
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+        
+   }
+
+header { grid-area: header; }  
+aside { grid-area: aside; }    
+article { grid-area: article; }  
+footer { grid-area: footer; }   
+
+.wrapper {
+  display: grid;
+  grid-template-areas:
+    'header header'
+    'aside article'
+    'footer article';
+grid-template-columns:  1.5fr 2fr;
+grid-template-rows: 0.2fr 1fr 0.3fr;
+  grid-gap: 10px;
+padding: 10px;
+width: 80%;
+margin: auto;
+}
+
+aside {
+  background-color: rgba(255, 255, 255, 0.5);
+  text-align: center;
+  padding: 20px 10px;
+  font-size: 16px;
+}
+
+article {
+    background-color: rgba(255, 255, 255, 0.5);
+    text-align: center;
+    padding: 20px 0;
+    font-size: 14px;
+  }
+
+  footer {
+    background-color: rgba(255, 255, 255, 0.5);
+    text-align: center;
+    padding: 20px 0;
+    font-size: 14px;
+  }
+
+  .navbar {
+    display: flex;
+    list-style-type: none;
+}
+
+.navbutton {
+  display:inline-block;
+  padding: 6px;
+  background-color: #0a485c;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 25px;
+  text-decoration: none;
+  text-align: center;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif
+}
+li a:hover {
+  background-color: white;
+}

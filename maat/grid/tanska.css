@@ -1,0 +1,106 @@
+body {
+    background-color: #81c9fe;
+  }
+
+h2, h3, h4, th {
+    color: #0a485c;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+    td, p, li, h1 {
+        color: #0a485c;
+        font-weight: bold;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    table, td, th {
+        border: 2px solid black;
+        border-collapse: collapse;
+        background: #ff9b9b;
+    }
+
+    .main {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+   #asukkaat{
+        height: 30%;
+        width: 30%;
+        padding: 1em;
+        border-style: solid;
+        border-width: 3px;
+        border-radius: 25px;
+        background-color: white;
+    }
+    
+   #tietoa {
+    height: 30%;
+    width: 30%;
+    padding: 1em;
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 25px;
+    background-color: #ff9b9b;
+    }
+    
+    #sijainti {
+        height: 10%;
+        width: 30%;
+        padding: 1em;
+        border-style: solid;
+        border-width: 3px;
+        border-radius: 25px;
+        background-color: #ff9b9b;
+    }
+
+    #kaupunkeja {
+        height: 10%;
+        width: 10%;
+        padding: 1em;
+        border-style: solid;
+        border-width: 3px;
+        border-radius: 25px;
+        background-color: #ff9b9b;
+    }
+
+    #lisätietoa {
+        height: 30%;
+        width: 30%;
+        padding: 1em;
+        border-style: solid;
+        border-width: 3px;
+        border-radius: 25px;
+        background-color: white;
+    }
+
+    /* visited link */
+a:visited {
+    color: #0a485c;
+
+}
+
+/* unvisited link */
+a:link {
+    color: #0a485c;
+  }
+
+
+.navbar {
+    display: flex;
+    list-style-type: none;
+}
+
+.navbutton {
+    display:inline-block;
+    padding: 10px;
+    background-color: #ff9b9b;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 25px;
+    text-decoration: none;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
